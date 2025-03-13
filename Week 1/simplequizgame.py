@@ -33,7 +33,7 @@ def quiz():
             print("✅ Correct!")
             score += 1
         else:
-            print(f"❌ Wrong! The correct answer was {q['answer']}.")
+            print(f"❌ Wrong! The correct answer was {q['answer']}.  😞")
 
     # Display final score
     print(f"\n🎉 You got {score} out of {len(questions)} correct!")
