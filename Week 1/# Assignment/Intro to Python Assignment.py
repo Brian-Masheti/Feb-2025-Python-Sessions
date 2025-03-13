@@ -27,4 +27,4 @@ elif operation == '%':
     else:
         print("Error: Modulus by zero is not allowed.")
 else:
-    print("Invalid operation. Please enter +, -, *, /, or %.")
+    print("Invalid Operation. Please enter +, -, *, /, or %.")
