@@ -54,7 +54,7 @@ print(languages[-3]) # Output: 23
 # Tuple is an ordered sequence of items same as a list. The only difference is that tuples are immutable. Tuples once created cannot be modified.
 # Tuples are used to write-protect data and are usually faster than lists as they cannot change dynamically.
 
-product = ('Mobile', 5000, 'Samsung', 5.5)
+product = ('Mobile 📞', 5000, 'Samsung 📱', 5.5)
 print(type(product))
 print(product[2]) # Output: Samsung
 
