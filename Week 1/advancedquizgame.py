@@ -64,7 +64,7 @@ def quiz():
 
         # Check if answer is correct
         if answer == q["answer"]:
-            print("✅ Correct!")
+            print("😊✅ Correct!")
             score += 1
         else:
             print(f"❌ Wrong! The correct answer was {q['answer']}.")
