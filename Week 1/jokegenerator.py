@@ -9,7 +9,7 @@ jokes = [
     "Why did the developer go broke? Because he used up all his cache! 💰",
     "Why do programmers hate nature? It has too many bugs. 🐞",
     "How do you tell an introverted software engineer from an extroverted one? The extrovert looks at your shoes instead of his own. 🤓",
-    "Why did the Python programmer break up with the C programmer? Because they had too many arguments! 💔"
+    "Why did the Python programmer break up with the C programmer? Because they had too many arguments! 💔 💔"
 ]
 
 # Select and display a random joke
