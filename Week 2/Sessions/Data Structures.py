@@ -30,7 +30,7 @@ print(students[-3])  # Output: David
 # Dictonaries
 # A dictionary is an ordered collection of items that are unordered, changeable, and indexed. 
 # Dictionaries are defined by enclosing the items in curly braces (`{}`), separated by commas, and each item is a key-value pair. 
-# The key is used to access the value associated with it. Dictionaries are mutable, which means that you can change the items in a dictionary by assigning new values to them. You can also add and remove items from a dictionary. 
+# The key is used to access the value associated with it. Dictionaries are mutable, which means that you can change the items in a dictionary by assigning new values to them. 
 # Dictionaries are useful for storing data in a structured way, where each item has a unique key that can be used to access it.
 student = {
     'name': 'Alice',
@@ -42,7 +42,7 @@ student = {
 }
 
 # Append new key-value pair to the dictionary
-student['height'] = 5.5
+student['height'] = 170
 
 print(student)
 print(student['age'])  # Output: 20
