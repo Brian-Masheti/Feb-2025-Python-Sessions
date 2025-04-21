@@ -1,28 +1,28 @@
-# * **File Read & Write Challenge** ✏️: Create a program that reads a file and writes a modified version to a new file.
+* **File Read & Write Challenge** ✏️: Create a program that reads a file and writes a modified version to a new file.
 
-# def add_line_numbers(input_filename, output_filename):
-#     try:
-#         # Open the input file for reading
-#         with open(input_filename, 'r') as input_file:
-#             # Read all lines from the file
-#             lines = input_file.readlines()
+def add_line_numbers(input_filename, output_filename):
+    try:
+        # Open the input file for reading
+        with open(input_filename, 'r') as input_file:
+            # Read all lines from the file
+            lines = input_file.readlines()
             
-#         # Open the output file for writing
-#         with open(output_filename, 'w') as output_file:
-#             # Write each line with line number
-#             for line_num, line in enumerate(lines, 1):
-#                 output_file.write(f"{line_num}: {line}")
+        # Open the output file for writing
+        with open(output_filename, 'w') as output_file:
+            # Write each line with line number
+            for line_num, line in enumerate(lines, 1):
+                output_file.write(f"{line_num}: {line}")
                 
-#         print(f"Successfully processed {input_filename} and created {output_filename}")
+        print(f"Successfully processed {input_filename} and created {output_filename}")
         
-#     except FileNotFoundError:
-#         print(f"Error: The file '{input_filename}' was not found.")
-#     except Exception as e:
-#         print(f"An error occurred: {e}")
+    except FileNotFoundError:
+        print(f"Error: The file '{input_filename}' was not found.")
+    except Exception as e:
+        print(f"An error occurred: {e}")
 
-# # Example usage
-# if __name__ == "__main__":
-#     add_line_numbers("text.txt", "numbered_text.txt")
+# Example usage
+if __name__ == "__main__":
+    add_line_numbers("text.txt", "numbered_text.txt")
 
 
 # * **Error Handling Lab** 🧪: Ask the user for a filename and handle errors if it doesn't exist or can't be read.
