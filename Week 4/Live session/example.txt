@@ -1,0 +1,4 @@
+Hello World, This is awesome.
+https://wwww.cursor.com
+Python provides multiple ways to read file contents.
+Processing large datasets or analysing text data.

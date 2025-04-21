@@ -1,0 +1,5 @@
+A good Power BI dashboard should present data in a visually appealing yet straightforward manner. 
+It integrates relevant, actionable insights, prioritizing key performance indicators (KPIs) for immediate attention. 
+Interactivity is paramount; users can filter and sort data to reveal deeper trends. 
+Dashboards must be responsive, adapting to various devices without losing effectiveness. 
+Color choices and typography should enhance comprehension, not detract from it.

@@ -1,0 +1,16 @@
+
+Error handling in Python involves anticipating and gracefully managing errors that may occur during program execution. 
+This is primarily achieved through the use of `try`, `except`, `else` and `finally` blocks.
+
+    `try block:`
+    Encloses the code that might raise an exception.
+
+    `except block:`
+    Catches and handles specific exceptions that occur within the try block. You can specify the type of exception to catch (e.g., ValueError, TypeError, ZeroDivisionError) or use a general except block to catch any exception.
+    
+    `else block:`
+    Executes only if no exception occurs in the try block. It's useful for code that should run only when the try block completes successfully.
+    
+    `finally block:`
+    Always executes, regardless of whether an exception occurred or not. It's typically used for cleanup tasks like closing files or releasing resources.
+
