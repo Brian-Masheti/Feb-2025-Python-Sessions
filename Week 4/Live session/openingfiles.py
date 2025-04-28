@@ -1,4 +1,4 @@
-# Python provies multiple ways to read file conetents:
+# Python provides multiple ways to read file contents:
 # 1. read() - reads the entire file.
 # 2. readline() - reads a single line at a time.
 # 3. readlines() - reads all lines and returns a list of lines.
